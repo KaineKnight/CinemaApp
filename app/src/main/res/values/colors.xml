@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_background">#0A070B</color>
+    <color name="red">#F41B3B</color>
+    <color name="blue">#1884F7</color>
+    <color name="not_active_gray">#807E81</color>
+    <color name="yellow">#F9CC0D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#F9CC0D</color>
+    <color name="purple_700">#F9CC0D</color>
+    <color name="black">#F9CC0D</color>
+    <color name="teal_200">#F9CC0D</color>
+    <color name="hint_gray">#4F4E50</color>
+    <color name="InactiveBottomNavIconColor">#807E81</color>
+    <color name="bottomNavColor">#202020</color>
+
+</resources>

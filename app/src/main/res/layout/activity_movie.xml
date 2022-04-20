@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_background"
+    tools:context=".MovieActivity">
+
+  <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="424dp"
+      android:layout_height="72dp"
+      android:gravity="center"
+      android:orientation="horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-20dp"
+        android:layout_weight="1"
+        android:src="@drawable/arrow_back" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:src="@drawable/logo_button" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_weight="1"
+        android:src="@drawable/vector_search" />
+  </LinearLayout>
+
+  <ScrollView
+      android:layout_width="409dp"
+      android:layout_height="0dp"
+      android:layout_marginTop="5dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <ImageView
+          android:id="@+id/imageView28"
+          android:layout_width="match_parent"
+          android:layout_height="237dp"
+          app:srcCompat="@drawable/group_99" />
+
+      <TextView
+          android:id="@+id/textView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:text="Изгой-Один. Звёздные войны. Истории"
+          android:textColor="@color/white"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/textView9"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:layout_marginTop="10dp"
+          android:text="2016 • 2ч 13м"
+          android:textColor="@color/white"
+          android:textSize="16sp" />
+
+      <TextView
+          android:id="@+id/textView10"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:text="фантастика, боевик, приключения"
+          android:textColor="@color/white"
+          android:textSize="16sp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginStart="30dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginEnd="30dp"
+          android:layout_marginBottom="16dp"
+          android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vector_addfav" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vector_share" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vector_download" />
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/textView11"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:text="Описание"
+          android:textColor="@color/white"
+          android:textSize="20sp" />
+
+      <TextView
+          android:id="@+id/textView12"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="20dp"
+          android:text="Сопротивление собирает отряд для выполнения особой миссии - надо выкрасть чертежи самого совершенного и смертоносного оружия Империи. Возглавляет бойцов неуправляемая и бесстрашная Джин Эрсо, у которой в этом самоубийственном задании есть и личные мотивы. Не всем суждено вернуться домой, но герои готовы к этому, ведь на кону судьба Галактики."
+          android:textColor="@color/not_active_gray"
+          android:textSize="16sp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="16dp"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            android:text="Другие фильмы"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-100dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/group_53" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginBottom="16dp"
+          android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="289dp"
+                android:layout_height="209dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/group_70" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="289dp"
+                android:layout_height="209dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/group_70" />
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="289dp"
+                android:layout_height="209dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/group_70" />
+
+          </LinearLayout>
+        </HorizontalScrollView>
+
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/imageView34"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:srcCompat="@drawable/rectangle_38" />
+
+      <ImageView
+          android:id="@+id/imageView35"
+          android:layout_width="150dp"
+          android:layout_height="71dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="16dp"
+          app:srcCompat="@drawable/logo_foot" />
+
+      <ImageView
+          android:id="@+id/imageView43"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginBottom="24dp"
+          app:srcCompat="@drawable/frame_67" />
+
+      <ImageView
+          android:id="@+id/imageView42"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="24dp"
+          app:srcCompat="@drawable/frame_68" />
+
+      <TextView
+          android:id="@+id/textView16"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginBottom="40dp"
+          android:text="©2022 Все права зарезервированы"
+          android:textColor="@color/white"
+          android:textSize="14sp" />
+
+
+    </LinearLayout>
+  </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
